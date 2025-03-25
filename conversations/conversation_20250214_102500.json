@@ -1,0 +1,103 @@
+{
+  "customer_info": {
+    "first_name": "Hasan",
+    "last_name": "Mahmmod",
+    "email": "ase@gha.com",
+    "phone": "01554557486",
+    "zip": "12245",
+    "car_condition": null,
+    "transaction_type": null,
+    "payment_method": null,
+    "credit_rating": null,
+    "max_monthly_payment": null,
+    "max_down_payment": null,
+    "max_finance_term": null,
+    "lease_term": null,
+    "annual_mileage": null,
+    "lease_down_payment": null,
+    "car_type": null,
+    "make": null,
+    "year": null,
+    "model": null,
+    "max_mileage": null,
+    "desired_features": null,
+    "has_trade_in": null,
+    "min_budget": null,
+    "max_budget": "59000.0"
+  },
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "hello my name is hasan mahmmod"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you, Hasan Mahmmod. What is your email address?"
+    },
+    {
+      "role": "user",
+      "content": "ase@gha.com"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you, Hasan Mahmmod. What is your phone number?"
+    },
+    {
+      "role": "user",
+      "content": "01554557486"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you, Hasan Mahmmod. What is your 5-digit zip code?"
+    },
+    {
+      "role": "user",
+      "content": "12245"
+    },
+    {
+      "role": "assistant",
+      "content": "Great! Let's move on to the next topic. Thank you Hasan. Let's discuss your budget. What's your minimum budget for the vehicle?"
+    },
+    {
+      "role": "user",
+      "content": "i think around 59k"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you, Hasan Mahmmod. What is your minimum budget for the vehicle?"
+    },
+    {
+      "role": "user",
+      "content": "atmost 86k"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you, Hasan Mahmmod. What is your minimum budget for the vehicle?"
+    },
+    {
+      "role": "user",
+      "content": "i think around 59k"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you, Hasan Mahmmod. What is your minimum budget for the vehicle?"
+    },
+    {
+      "role": "user",
+      "content": "around 32"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you, Hasan Mahmmod. What is your minimum budget for the vehicle?"
+    },
+    {
+      "role": "user",
+      "content": "around 32k"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you, Hasan Mahmmod. What is your minimum budget for the vehicle?"
+    }
+  ],
+  "timestamp": "2025-02-14T10:25:53.664270"
+}

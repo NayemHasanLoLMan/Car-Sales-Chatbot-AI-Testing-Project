@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automotive Virtual Assistant</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --background-color: #f8fafc;
+            --card-background: #ffffff;
+            --text-primary: #1e293b;
+            --text-secondary: #64748b;
+            --border-color: #e2e8f0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--background-color);
+            margin: 0;
+            padding: 0;
+            color: var(--text-primary);
+            line-height: 1.5;
+        }
+
+        .chat-container {
+            max-width: 900px;
+            margin: 2rem auto;
+            background: var(--card-background);
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            padding: 1.5rem;
+        }
+
+        .chat-header {
+            font-size: 1.875rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            text-align: center;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .chat-summary {
+            background: var(--background-color);
+            padding: 1.25rem;
+            border-radius: 0.75rem;
+            margin-bottom: 1.5rem;
+            font-size: 0.975rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        .chat-box {
+            height: 400px;
+            overflow-y: auto;
+            border: 1px solid var(--border-color);
+            border-radius: 0.75rem;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            background: var(--background-color);
+        }
+
+        .chat-message {
+            margin-bottom: 1rem;
+            padding: 0.75rem 1rem;
+            border-radius: 0.5rem;
+            max-width: 80%;
+        }
+
+        .user-message {
+            background: var(--primary-color);
+            color: white;
+            margin-left: auto;
+        }
+
+        .bot-message {
+            background: var(--border-color);
+            color: var(--text-primary);
+        }
+
+        .chat-input {
+            display: flex;
+            gap: 0.75rem;
+            padding: 0.5rem;
+        }
+
+        .chat-input input {
+            flex: 1;
+            padding: 0.75rem 1rem;
+            border: 2px solid var(--border-color);
+            border-radius: 0.5rem;
+            font-size: 1rem;
+            transition: border-color 0.2s ease;
+        }
+
+        .chat-input input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+
+        .chat-input button {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+
+        .chat-input button:hover {
+            background-color: var(--secondary-color);
+        }
+
+        @media (max-width: 640px) {
+            .chat-container {
+                margin: 1rem;
+                padding: 1rem;
+            }
+
+            .chat-box {
+                height: 350px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">Automotive Virtual Assistant</div>
+        <div class="chat-summary" id="chatSummary"></div>
+        <div class="chat-box" id="chatBox"></div>
+        <div class="chat-input">
+            <input 
+                type="text" 
+                id="userInput" 
+                placeholder="Ask about vehicle specifications..."
+                onkeypress="if(event.key === 'Enter') sendMessage()"
+            >
+            <button onclick="sendMessage()">
+                Send
+            </button>
+        </div>
+    </div>
+
+    <script>
+        const car_info = {
+            make: "Tesla",
+            model: "Model S",
+            type: "Electric",
+            performance: {
+                top_speed: "200 mph",
+                acceleration: "0-60 mph in 3.1 seconds"
+            }
+        };
+
+        document.getElementById("chatSummary").innerHTML = `
+            <strong>Welcome to your personal automotive assistant!</strong><br><br>
+            I'm here to help you learn about the ${car_info.make} ${car_info.model}:<br>
+            • Type: ${car_info.type}<br>
+            • Performance Highlights:<br>
+              - Top Speed: ${car_info.performance?.top_speed}<br>
+              - Acceleration: ${car_info.performance?.acceleration}<br><br>
+            How may I assist you today?
+        `;
+
+        function sendMessage() {
+            const userInput = document.getElementById("userInput");
+            const message = userInput.value.trim();
+            if (!message) return;
+
+            const chatBox = document.getElementById("chatBox");
+            
+            // Add user message
+            const userDiv = document.createElement("div");
+            userDiv.className = "chat-message user-message";
+            userDiv.textContent = message;
+            chatBox.appendChild(userDiv);
+
+            // Clear input
+            userInput.value = "";
+
+            // Simulate API call
+            fetch("/ask", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ question: message })
+            })
+                .then(response => response.json())
+                .then(data => {
+                    const botDiv = document.createElement("div");
+                    botDiv.className = "chat-message bot-message";
+                    botDiv.textContent = data.answer;
+                    chatBox.appendChild(botDiv);
+                    chatBox.scrollTop = chatBox.scrollHeight;
+                })
+                .catch(() => {
+                    const errorDiv = document.createElement("div");
+                    errorDiv.className = "chat-message bot-message";
+                    errorDiv.textContent = "I apologize, but I'm temporarily unable to process your request. Please try again in a moment.";
+                    chatBox.appendChild(errorDiv);
+                    chatBox.scrollTop = chatBox.scrollHeight;
+                });
+        }
+
+        // Focus input on load
+        document.getElementById("userInput").focus();
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+**Customer Interaction Summary:**
+
+**1. Customer's Personal Information:**
+- **Name:** Hasan Mahmood
+- **Email:** hase2@gaj.com
+- **Phone:** 0166565623
+- **Zip Code:** 12453
+
+**2. Vehicle Preferences and Requirements:**
+- **Car Condition:** New
+- **Car Type:** SUV
+- **Make:** BMW
+- **Year:** 2001
+- **Model:** X2
+- **Desired Features:** GPS, Advanced Safety Features
+- **Trade-In:** Not Applicable
+- **Max Mileage:** Not Specified
+
+**3. Financial Information and Budget:**
+- **Transaction Type:** Buy
+- **Payment Method:** Cash
+- **Credit Rating:** Very Good
+- **Max Monthly Payment:** $2000
+- **Max Down Payment:** $10,000
+- **Max Finance Term:** 32 months
+- **Min Budget:** $32,000
+- **Max Budget:** $60,000
+
+**4. Additional Information:**
+- Hasan Mahmood is looking for a new BMW SUV, specifically the X2 model from the year 2001, with GPS and advanced safety features.
+- He is interested in a cash transaction and has a very good credit rating.
+- Hasan's budget ranges between $32,000 and $60,000, with a maximum monthly payment of $2000 and a maximum down payment of $10,000.
+- He does not have a specific mileage requirement but values advanced safety features in his vehicle.
+
+This summary outlines Hasan Mahmood's detailed vehicle preferences, financial standing, and budget constraints, providing a clear overview of his requirements as a potential car buyer.

@@ -1,0 +1,153 @@
+{
+  "customer_info": {
+    "first_name": "hasan",
+    "last_name": "mahmood",
+    "email": "ashu3g@gmail.com",
+    "phone": "01554557486",
+    "zip": "12344",
+    "car_condition": "new",
+    "transaction_type": "buy",
+    "payment_method": null,
+    "credit_rating": null,
+    "max_monthly_payment": null,
+    "max_down_payment": null,
+    "max_finance_term": null,
+    "lease_term": "N/A",
+    "annual_mileage": "N/A",
+    "lease_down_payment": "N/A",
+    "car_type": "suv",
+    "make": "bmw",
+    "year": "2021",
+    "model": "x2",
+    "max_mileage": 500,
+    "desired_features": null,
+    "has_trade_in": false,
+    "min_budget": 20000.0,
+    "max_budget": 50000.0
+  },
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "my name is hasan"
+    },
+    {
+      "role": "assistant",
+      "content": "Great, Hasan! I'm glad to assist you. To proceed, may I please have your last name?"
+    },
+    {
+      "role": "user",
+      "content": "mahmood"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you, Hasan Mahmood. Could you kindly provide me with your email address?"
+    },
+    {
+      "role": "user",
+      "content": "ashu3g@gmail.com"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you, Hasan Mahmood. The next piece of information I need from you is your phone number. May I please have your phone number?"
+    },
+    {
+      "role": "user",
+      "content": "01554557486"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you for providing your phone number, Hasan Mahmood. Now, I just need your zip code. This should be a 5-digit code. Can you please share that with me?"
+    },
+    {
+      "role": "user",
+      "content": "12344"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you for providing your zip code, Hasan Mahmood. \nNext, I need some details about your budget. \nWhat is the minimum amount you are willing to spend on a car?"
+    },
+    {
+      "role": "user",
+      "content": "i want to spent at least 20k"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you for specifying your minimum budget, Hasan Mahmood.\nNow, to proceed further, could you please provide me with the maximum amount you are willing to spend on a car?"
+    },
+    {
+      "role": "user",
+      "content": "max i can go for is 50000"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you for providing your budget details, Hasan Mahmood. \nThe next piece of information I need from you is your credit rating. \nPlease choose from the following options:\n- Excellent\n- Very Good\n- Good\n- Fair\n- Poor"
+    },
+    {
+      "role": "user",
+      "content": "it is good"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you for providing your credit rating, Hasan Mahmood. \nMoving forward, could you please specify if you are looking for a new or pre-owned car?"
+    },
+    {
+      "role": "user",
+      "content": "i want a new car"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you for sharing that you are interested in a new car, Hasan Mahmood.\nNext, could you please let me know if you are planning to buy or lease the car?"
+    },
+    {
+      "role": "user",
+      "content": "i want to buy"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you for confirming that you want to buy a new car, Hasan Mahmood.\nIs there a trade-in vehicle involved in this purchase?"
+    },
+    {
+      "role": "user",
+      "content": "no there is no trade"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you for clarifying that there is no trade-in vehicle involved, Hasan Mahmood.\nI will now proceed to gather more details about the car you are looking for. Let's start with the make and model of the car. Can you please provide that information?"
+    },
+    {
+      "role": "user",
+      "content": "i want a bmw x2 suv"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you for specifying the make and model of the car, Hasan Mahmood.\nTo proceed further, could you please provide me with the year of the BMW X2 SUV you are interested in?"
+    },
+    {
+      "role": "user",
+      "content": "i want it from year 2021"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you for specifying the year of the BMW X2 SUV, Hasan Mahmood.\nIs there any specific feature you are looking for in the car, or any maximum mileage limit you have in mind?"
+    },
+    {
+      "role": "user",
+      "content": "around 500 miles"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you for providing the maximum mileage limit, Hasan Mahmood.\nI will now review the information provided and get back to you with the next steps in finding your desired BMW X2 SUV. Thank you for your patience."
+    },
+    {
+      "role": "user",
+      "content": "ok"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you for your patience, Hasan Mahmood. Based on the information you have provided, I will now review and proceed with the next steps to assist you in finding your desired BMW X2 SUV. If I require any further information, I will reach out to you promptly. Thank you for choosing our services."
+    }
+  ],
+  "timestamp": "2025-02-15T12:55:01.571886",
+  "collection_phase": "budget",
+  "all_information_collected": false
+}

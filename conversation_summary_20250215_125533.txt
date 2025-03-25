@@ -1,0 +1,38 @@
+Customer Interaction Summary:
+
+1. Customer's Personal Information:
+- Name: Hasan Mahmood
+- Email: ashu3g@gmail.com
+- Phone: 01554557486
+- Zip Code: 12344
+
+2. Vehicle Preferences and Requirements:
+- Car Condition: New
+- Transaction Type: Buy
+- Car Type: SUV
+- Make: BMW
+- Year: 2021
+- Model: X2
+- Maximum Mileage: 500 miles
+- Desired Features: Not specified
+- Trade-In: No
+
+3. Financial Information and Budget:
+- Minimum Budget: $20,000.00
+- Maximum Budget: $50,000.00
+- Payment Method: Not specified
+- Credit Rating: Not specified
+- Max Monthly Payment: Not specified
+- Max Down Payment: Not specified
+- Max Finance Term: Not specified
+- Lease Term: N/A
+- Annual Mileage: N/A
+- Lease Down Payment: N/A
+
+4. Additional Information:
+- Hasan Mahmood is looking to buy a new BMW X2 SUV with a maximum mileage of 500 miles.
+- He has a budget ranging from $20,000.00 to $50,000.00.
+- Hasan is not interested in a lease and does not have a trade-in.
+- Specific desired features and detailed financial information were not provided during the conversation.
+
+Overall, Hasan Mahmood is a customer interested in purchasing a new BMW X2 SUV within a specified budget range and mileage limit, with a preference for buying rather than leasing. Further discussions may be needed to determine specific vehicle features and tailor the financial aspects to meet his requirements.

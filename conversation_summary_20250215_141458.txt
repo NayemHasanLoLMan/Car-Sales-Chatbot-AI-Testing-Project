@@ -1,0 +1,39 @@
+**Customer Interaction Summary:**
+
+**1. Customer's Personal Information:**
+- **Name:** Hasan Mahmmod
+- **Email:** hasan@gmail.com
+- **Phone:** 01445445643
+- **Zip Code:** 12345
+
+**2. Vehicle Preferences and Requirements:**
+- **Car Condition:** New
+- **Transaction Type:** Buy
+- **Payment Method:** Cash
+- - **Car Type:** SUV
+- **Make:** Honda
+- **Year:** 2012
+- **Model:** Pilot
+- **Desired Features:** GPS, Advanced Safety Features
+- **Trade-In:** Not Applicable
+- **Max Mileage Preference:** Not Specified
+
+**3. Financial Information and Budget:**
+- **Credit Rating:** Good
+- **Max Down Payment:** $2000.0
+- **Min Budget:** $32000.0
+- **Max Budget:** $56000.0
+- **Max Monthly Payment:** Not Specified
+- **Max Finance Term:** Not Specified
+- **Lease Term:** Not Applicable
+- **Annual Mileage:** Not Applicable
+- **Lease Down Payment:** Not Applicable
+
+**4. Additional Information:**
+- Hasan is looking to purchase a new Honda Pilot SUV from the year 2012.
+- He prefers advanced safety features and GPS in the vehicle.
+- Hasan is not interested in a trade-in option.
+- He has a good credit rating and is willing to make a cash payment with a maximum down payment of $2000.0.
+- Hasan's budget range for the purchase is between $32000.0 and $56000.0.
+
+Based on the information provided by Hasan Mahmmod, the sales assistant can recommend suitable Honda Pilot SUV options within his budget and preferences, ensuring a smooth buying process tailored to his requirements.

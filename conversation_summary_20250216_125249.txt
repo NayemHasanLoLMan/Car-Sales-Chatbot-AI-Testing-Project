@@ -1,0 +1,35 @@
+Summary of Customer Interaction:
+
+1. Customer's Personal Information:
+- Name: Hasan Mahmmod
+- Email: hasan@gmail.com
+- Phone: 01445445643
+- Zip Code: 12345
+
+2. Vehicle Preferences and Requirements:
+- Car Condition: New
+- Car Type: SUV
+- Make: Honda
+- Year: 2012
+- Model: Pilot
+- Desired Features: Not specified
+- Mileage Preference: Not specified
+- Trade-In: No
+
+3. Financial Information and Budget:
+- Transaction Type: Buy
+- Payment Method: Cash
+- Credit Rating: Good
+- Max Down Payment: $10,000
+- Min Budget: $32,000
+- Max Budget: $56,000
+- Max Finance Term: 32 months
+
+4. Additional Information:
+- Hasan is looking for a new Honda SUV, specifically a 2012 Pilot model.
+- He prefers to make a cash purchase with a good credit rating.
+- Hasan's budget ranges between $32,000 to $56,000 with a maximum down payment of $10,000.
+- He is not interested in a lease and does not have a trade-in vehicle.
+- Hasan's primary focus is on finding a reliable and spacious SUV within his specified budget and financial parameters.
+
+Overall, Hasan Mahmmod is a prospective buyer interested in a new Honda Pilot SUV with specific budget constraints and a preference for a cash transaction, aiming to make a purchase within his financial comfort zone.
