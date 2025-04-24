@@ -10,7 +10,7 @@ local_database = {
 # 🔹 Gemini API call function (Optimized with timeout & response handling)
 def api_call_to_gemini(question):
     api_url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent"
-    API_KEY = "AIzaSyAWrSA4pMISYR-dhYDHC8c6EWPjvxwBxvw"  # 👉 Replace with your actual API Key
+    API_KEY = "API KEY"  # 👉 Replace with your actual API Key
 
     payload = {
         "contents": [{"role": "user", "parts": [{"text": question}]}]
