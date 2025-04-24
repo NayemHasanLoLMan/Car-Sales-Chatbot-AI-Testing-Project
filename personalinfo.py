@@ -427,7 +427,7 @@ class CarSalesGPTBot:
 def generate_customer_data(user_message, api_key=None, conversation_history=None):
     # Use default API key if none provided
     if not api_key:
-        api_key = "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"
+        api_key = "API KEY"
 
     # Initialize bot
     bot = CarSalesGPTBot(api_key)
@@ -474,7 +474,7 @@ def generate_customer_data(user_message, api_key=None, conversation_history=None
 
 def generate_conversation_summary(conversation_history=None, api_key=None):
     if not api_key:
-        api_key ="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"
+        api_key ="API KEY"
     
     bot = CarSalesGPTBot(api_key)
     bot.conversation_history = conversation_history
