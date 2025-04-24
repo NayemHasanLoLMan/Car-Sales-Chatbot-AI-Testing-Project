@@ -150,23 +150,7 @@ class CarSalesGPTBot:
             self.save_conversation()
             return error_msg
 
-    # def update_customer_info(self, extracted_info: Dict):
-    #     """Update customer info with validated information, ensuring 'N/A' is treated correctly."""
-    #     for field, value in extracted_info.items():
-    #         if hasattr(self.customer, field):
-    #             current_value = getattr(self.customer, field)
-                
-    #             # Handle "N/A" properly - don't overwrite valid values with "N/A"
-    #             if isinstance(value, str) and value.lower() in ["no", "none", "i don't have any"]:
-    #                 value = "N/A"
-                
-    #             # Only update the field if the value is different and not "N/A" 
-    #             if value and (current_value is None or str(value).lower() != str(current_value).lower()) and value != "N/A":
-    #                 setattr(self.customer, field, value)
-    #                 print(f"Updated {field}: {value}")
-            
-    #     # After update, check if we can move to the next phase
-    #     self.check_phase_completion()
+  
 
     def update_customer_info(self, extracted_info: Dict):
         """
@@ -535,7 +519,7 @@ class CarSalesGPTBot:
 
 def main(history):
     # Initialize the bot with your OpenAI API key
-    api_key = "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"  # Replace with your actual OpenAI API key
+    api_key = "API KEY"  # Replace with your actual OpenAI API key
     bot = CarSalesGPTBot(api_key)
 
     print("Car Sales Assistant: Hello! I'm here to help you find your perfect vehicle. First, may I have your name?")
